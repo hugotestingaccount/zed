@@ -16,8 +16,8 @@ use workspace::{item::ItemHandle, StatusItemView, Workspace};
 
 actions!(activity_indicator, [ShowErrorMessage]);
 
-const DOWNLOAD_ICON: &str = "icons/download.svg";
-const WARNING_ICON: &str = "icons/warning.svg";
+const DOWNLOAD_ICON: &str = "assets/icons/download.svg";
+const WARNING_ICON: &str = "assets/icons/warning.svg";
 
 pub enum Event {
     ShowError { lsp_name: Arc<str>, error: String },
